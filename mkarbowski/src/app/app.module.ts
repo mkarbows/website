@@ -4,7 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // modules
 import { AppRoutingModule } from './app-routing.module';
-// import { MaterialModule } from './material/material.module';
+import { MaterialModule } from './material';
 
 import { AppComponent } from './app.component';
 
@@ -16,9 +16,12 @@ import { AppComponent } from './app.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    // MaterialModule
+    MaterialModule
   ],
   providers: [],
   bootstrap: [ AppComponent ]
 })
-export class AppModule { }
+export class AppModule { 
+  constructor() {}
+}
+
