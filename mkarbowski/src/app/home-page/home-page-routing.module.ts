@@ -2,12 +2,12 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 // containers
-import { NavigationContainerComponent } from './containers/navigation-container/navigation-container.component';
+import { HomePageContainerComponent } from './containers/home-page-container/home-page-container.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: NavigationContainerComponent
+    component: HomePageContainerComponent
   }
 ];
 

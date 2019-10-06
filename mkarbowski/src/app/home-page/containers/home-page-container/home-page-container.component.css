@@ -1,0 +1,16 @@
+.bgimg {
+    background: url('../../../background-images/DSC02174.jpg') no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    opacity: 0.85; 
+    align-content: center;
+
+}
+
+.header {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+}
