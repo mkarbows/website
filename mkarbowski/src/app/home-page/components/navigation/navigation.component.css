@@ -1,7 +1,11 @@
 .nav {
-    text-align: center;
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 30px;
 }
 
 button {
-    margin: 10px;
+  margin: 10px;
+  color: white;
+  font-size: 18px;
 }
