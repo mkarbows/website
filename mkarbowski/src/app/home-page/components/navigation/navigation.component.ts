@@ -6,7 +6,25 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navigation.component.css']
 })
 export class NavigationComponent implements OnInit {
-
+  navLinks = [
+    {
+      label: 'about',
+      path: 'about'
+    },
+    {
+      label: 'work',
+      path: 'work'
+    },
+    {
+      label: 'art',
+      path: 'art'
+    },
+    {
+      label: 'photography',
+      path: 'photography'
+    }
+  ];
+  
   constructor() { }
 
   ngOnInit() {

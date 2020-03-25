@@ -1,12 +1,22 @@
-<div class="nav">
+<!-- <div class="nav">
   <button mat-button>about</button>
   <button mat-button>work</button>
   <button mat-button>art</button>
   <button mat-button>photography</button>
-</div>
-<!-- <mat-tab-group>
+</div> -->
+<mat-tab-group class="nav" dynamic-height="true">
   <mat-tab label="About">about</mat-tab>
   <mat-tab label="Work">work</mat-tab>
   <mat-tab label="Art">art</mat-tab>
   <mat-tab label="Photography">photography</mat-tab>
-</mat-tab-group> -->
+</mat-tab-group>
+
+<!-- <nav mat-tab-nav-bar class="nav">
+  <a mat-tab-link
+     *ngFor="let link of navLinks"
+     [routerLink]="link.path"
+     routerLinkActive #rla="routerLinkActive"
+     [active]="about">
+    {{link.label}}
+  </a>
+</nav> -->
