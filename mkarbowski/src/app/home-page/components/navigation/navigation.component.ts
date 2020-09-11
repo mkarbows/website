@@ -11,18 +11,18 @@ export class NavigationComponent implements OnInit {
       label: 'about',
       path: 'about'
     },
-    {
-      label: 'work',
-      path: 'work'
-    },
-    {
-      label: 'art',
-      path: 'art'
-    },
-    {
-      label: 'photography',
-      path: 'photography'
-    }
+    // {
+    //   label: 'work',
+    //   path: 'work'
+    // },
+    // {
+    //   label: 'art',
+    //   path: 'art'
+    // },
+    // {
+    //   label: 'photography',
+    //   path: 'photography'
+    // }
   ];
   
   constructor() { }

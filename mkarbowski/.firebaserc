@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "megan-karbowski": {
+      "hosting": {
+        "mkarbowski": [
+          "megan-karbowski"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "megan-karbowski"
+  }
+}

@@ -1,8 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 @import '@angular/material/prebuilt-themes/pink-bluegrey.css';
 
+@font-face {
+  font-family: "Raleway";
+  src: url(/src/assets/font/Raleway.ttf) format("opentype");
+}
+
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body {
+  margin: 0;
+  /* font-family: Roboto, "Helvetica Neue", sans-serif; */
+  font-family: "Raleway", serif;
+
+}
+
 .mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
   background-color: white;
   width: fit-content;
@@ -15,6 +26,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   min-width: 60px;
   width: 120px;
 }
-.mat-tab-labels {
+.mat-tab-labels,
+.mat-tab-link {
   justify-content: flex-end;
+  font-family: "Raleway", serif;
+
 }
