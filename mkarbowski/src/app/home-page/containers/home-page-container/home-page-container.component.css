@@ -1,6 +1,7 @@
-.bgimg {
+/* .bgimg {
   position: relative;
   height: 100vh;
+
 }
 
 .bgimg::after {
@@ -15,4 +16,4 @@
   bottom: 0;
   right: 0;
   position: absolute;
-}
+} */

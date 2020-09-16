@@ -9,9 +9,11 @@
 html, body { height: 100%; }
 body {
   margin: 0;
-  /* font-family: Roboto, "Helvetica Neue", sans-serif; */
   font-family: "Raleway", serif;
-
+  background-position: center;
+  background-image: url(./app/background-images/DSC02174.jpg);
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
