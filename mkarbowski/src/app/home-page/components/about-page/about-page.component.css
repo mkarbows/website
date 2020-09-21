@@ -11,6 +11,7 @@
   justify-content: space-evenly;
   align-items: center;
   position: relative;
+  /* flex-wrap: wrap; */
 }
 
 p {
@@ -32,3 +33,24 @@ p {
 /* .logo {
   max-width: 10vh;
 } */
+
+@media (max-width: 820px) {
+  .header {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  p {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  
+  .headshot {
+    margin-right: 0px;
+  }
+}
