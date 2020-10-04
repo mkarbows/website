@@ -34,3 +34,24 @@ body {
   font-family: "Raleway", serif;
 
 }
+
+mat-icon {
+  color: white;
+}
+
+.mck-logo {
+  padding: 5px;
+}
+
+.icon,
+.email-icon {
+  font-size: 24px;
+  height: 24px;
+  width: 24px;
+  padding: 10px
+}
+
+.icon,
+.mck-logo {
+  margin-bottom: -10px;
+}
