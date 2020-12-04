@@ -3,7 +3,6 @@ import { Routes, RouterModule } from '@angular/router';
 
 // containers
 import { HomePageContainerComponent } from './containers/home-page-container/home-page-container.component';
-import { AboutPageComponent } from './components/about-page/about-page.component';
 
 const routes: Routes = [
   {
