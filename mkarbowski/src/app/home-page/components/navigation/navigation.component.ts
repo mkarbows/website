@@ -12,6 +12,10 @@ export class NavigationComponent implements OnInit {
       path: 'about'
     },
     // {
+    //   label: 'spotify',
+    //   path: 'spotify'
+    // },
+    // {
     //   label: 'work',
     //   path: 'work'
     // },
