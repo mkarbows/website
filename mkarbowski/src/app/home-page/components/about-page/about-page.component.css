@@ -49,6 +49,10 @@
     flex-direction: column;
   }
 
+  .p-about {
+    margin-left: 0px;
+  }
+
   p {
     margin-left: 0px;
     margin-top: 0px;
