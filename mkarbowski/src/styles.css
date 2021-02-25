@@ -41,9 +41,9 @@ mat-icon {
 
 .mck-logo {
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   padding-left: 10px;
-  padding-right: 5px;
+  padding-right: 10px;
   height: 24px;
   width: 36px;
 }
@@ -53,7 +53,7 @@ mat-icon {
   font-size: 24px;
   height: 24px;
   width: 24px;
-  padding: 10px
+  padding: 10px;
 }
 
 .icon,

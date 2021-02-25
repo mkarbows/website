@@ -1,5 +1,28 @@
 div {
   text-align: center;
   margin-top: 20px;
-  padding-bottom: 20px;
+}
+
+.company {
+  color: white;
+}
+
+#footer {
+	max-width: 980px;
+	text-align: center;
+    margin: auto;
+}
+
+h3 {
+  font-weight : 300;
+  font-size : 14px;
+  color : white;
+}
+
+.copyright {
+    float: left;
+}
+
+.social {
+	float: right;
 }
