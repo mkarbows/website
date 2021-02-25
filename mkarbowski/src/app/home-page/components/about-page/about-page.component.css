@@ -31,12 +31,16 @@
 
 .connect {
   margin-top: 40px;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
   text-align: center;
   font-size: 16px;
   letter-spacing: 1px;
   color: rgba(255, 255, 255, 0.9);
   font-weight: 800;
+}
+
+.connect-text {
+  margin-bottom: 25px;
 }
 
 @media (max-width: 820px) {
