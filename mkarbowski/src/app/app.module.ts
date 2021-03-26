@@ -9,11 +9,13 @@ import { MaterialModule } from './material';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './core/components/footer/footer.component';
+import { NavigationComponent } from './home-page/components/navigation/navigation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FooterComponent
+    FooterComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-navigation',
@@ -6,32 +7,31 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navigation.component.css']
 })
 export class NavigationComponent implements OnInit {
-  navLinks = [
-    {
-      label: 'about',
-      path: 'about'
-    },
-    // {
-    //   label: 'spotify',
-    //   path: 'spotify'
-    // },
-    // {
-    //   label: 'work',
-    //   path: 'work'
-    // },
-    // {
-    //   label: 'art',
-    //   path: 'art'
-    // },
-    // {
-    //   label: 'photography',
-    //   path: 'photography'
-    // }
-  ];
   
-  constructor() { }
+  navLinks: any[];
+  activeLinkIndex = -1;
+  
+  constructor(private router: Router) {
+
+    this.navLinks = [
+      {
+        label: 'about',
+        link: './about',
+        index: 0
+      },
+      {
+        label: 'resume',
+        link: './resume',
+        index: 1
+      },
+    ];
+
+  }
 
   ngOnInit() {
+    this.router.events.subscribe((res) => {
+      this.activeLinkIndex = this.navLinks.indexOf(this.navLinks.find(tab => tab.link === '.' + this.router.url));
+    })
   }
 
 }

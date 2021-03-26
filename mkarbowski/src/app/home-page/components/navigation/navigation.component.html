@@ -1,10 +1,10 @@
 <nav mat-tab-nav-bar class="nav" dynamic-height="true" mat-align-tabs="center">
   <a mat-tab-link
-    class="tab-link"
-    *ngFor="let navType of navLinks"
-    [routerLink]="[navType.path]"
+    *ngFor="let link of navLinks"
+    [routerLink]="link.link"
     routerLinkActive #rla="routerLinkActive"
-    [active]="navType.path === 'about'">
-      {{ navType.label }}
+    [active]="rla.isActive">
+    {{ link.label }}
   </a>
 </nav>
+<router-outlet></router-outlet>
