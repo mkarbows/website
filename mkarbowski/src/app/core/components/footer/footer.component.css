@@ -3,10 +3,6 @@ div {
   margin-top: 20px;
 }
 
-.company {
-  color: white;
-}
-
 #footer {
 	max-width: 980px;
 	text-align: center;
@@ -16,7 +12,6 @@ div {
 h3 {
   font-weight : 300;
   font-size : 14px;
-  color : white;
 }
 
 .copyright {

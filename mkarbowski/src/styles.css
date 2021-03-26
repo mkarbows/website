@@ -4,6 +4,7 @@
 @font-face {
   font-family: "Raleway";
   src: url(/src/assets/font/Raleway.ttf) format("opentype");
+  color: white;
 }
 
 html, body { height: 100%; }
@@ -14,6 +15,7 @@ body {
   background-image: url(./app/background-images/DSC02174.jpg);
   background-attachment: fixed;
   background-size: cover;
+  color: white;
 }
 
 .mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
