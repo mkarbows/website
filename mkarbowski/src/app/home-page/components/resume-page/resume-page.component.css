@@ -4,3 +4,22 @@
     font-size: 38px;
     letter-spacing: 10px;
   }
+
+.resume {
+  margin: 30px;
+}
+
+.experience {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+h3 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+  
