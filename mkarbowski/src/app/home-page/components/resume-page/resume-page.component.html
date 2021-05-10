@@ -1,7 +1,18 @@
 <div>
     <h1 class="header">megan charlotte karbowski</h1>
     <div class="resume">
-        <h2>stack</h2>
+        <div *ngFor="let item of resume">
+            <h2> {{ item.category }} </h2>
+            <h4>{{ item.list }}</h4>
+            <div *ngFor="let job of item.data">
+                <h3>{{ job.company }},  {{ job.location }}</h3>
+                <h4>{{ job.title }}</h4>
+                <h4>{{ job.dates }}</h4>
+            </div>
+        </div>
+
+
+        <!-- <h2>stack</h2>
         <div class="experience">
             <h3>angular</h3>
             <h3>ngrx</h3>
@@ -43,6 +54,6 @@
             <h3>code architecture</h3>
             <h3>communication</h3>
             <h3>leadership</h3>
-        </div>
+        </div> -->
     </div>
 </div>
