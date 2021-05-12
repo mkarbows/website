@@ -9,6 +9,15 @@
   margin: 30px;
 }
 
+.category {
+  margin-bottom: 0px;
+}
+
+.list {
+  padding-right: 10px;
+  margin-bottom: 0px;
+}
+
 .experience {
   display: flex;
   justify-content: space-between;
@@ -17,9 +26,24 @@
   flex-wrap: wrap;
 }
 
-h3 {
-  padding-left: 10px;
-  padding-right: 10px;
+@media (max-width: 820px) {
+  .header {
+    margin: 0px;
+      }
+    .resume {
+    margin-top: 0px;
+    }
+    
+    .category {
+      margin-bottom: 0px;
+    }
+    
+    .category#stack {
+      margin-top: 0px;
+    }
+    
+    .list {
+      padding-right: 10px;
+      margin-bottom: 0px;
+    }
 }
-
-  

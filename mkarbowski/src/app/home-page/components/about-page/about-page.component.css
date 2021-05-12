@@ -43,7 +43,8 @@
   }
 
   .p-about {
-    margin-left: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   p {
@@ -53,6 +54,7 @@
   }
   
   .headshot {
-    margin-right: 0px;
+    margin-right: 10px;
+    margin-left: 10px
   }
 }
