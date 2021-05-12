@@ -3,59 +3,20 @@
     <div class="resume">
         <div *ngFor="let item of resume">
             <h2 class="category" id={{item.category}}> {{ item.category }} </h2>
-            <div class="experience">
+            <div class="stack">
                 <h4 *ngFor="let list of item.list" class="list">{{ list }}</h4>
             </div>
-            <div *ngFor="let job of item.data">
-                <h3>{{ job.company }},  {{ job.location }}</h3>
-                <h4>{{ job.title }}</h4>
-                <h4>{{ job.dates }}</h4>
+            <div class="exp-container" *ngFor="let job of item.data">
+                <div class="experience">
+                    <h3 class="title">{{ job.title }}</h3><h3>{{ job.dates }}</h3>
+                </div>
+                <div class="experience">
+                    <!-- <h3 class="company">{{ job.company }},  {{ job.location }}</h3> -->
+                    <h4 class="company">{{ job.company }}</h4> 
+                    <h4 class="dates">{{ job.location }}</h4>
+                </div>
             </div>
         </div>
 
-
-        <!-- <h2>stack</h2>
-        <div class="experience">
-            <h3>angular</h3>
-            <h3>ngrx</h3>
-            <h3>ionic</h3>
-            <h3>javascript</h3>
-            <h3>html</h3>
-            <h3>css</h3>
-            <h3>nestjs</h3>
-            <h3>node.js</h3>
-            <h3>git</h3>
-            <h3>react</h3>
-            <h3>redux</h3>
-            <h3>c#</h3>
-            <h3>python</h3>
-        </div>
-        <h2>experience</h2>
-        <h3>metapixel llc, remote</h3>
-        <div class="experience">
-            <h3>contract software developer</h3>
-            <h3>feb 2021 - present</h3>
-        </div>
-        <h3>arup, los angeles, ca</h3>
-        <div class="experience">
-            <h3>software developer</h3>
-            <h3>aug 2018 - oct 2020</h3>
-        </div>
-        <h2>education</h2>
-        <h3>loyola marymount university, los angeles, ca</h3>
-        <div class="experience">
-            <h3>bs in computer science</h3>
-            <h3>aug 2014 - may 2018</h3>
-        </div>
-        <h2>skills</h2>
-        <div class="experience">
-            <h3>task management</h3>
-            <h3>sprint planning</h3>
-            <h3>project management</h3>
-            <h3>story boarding</h3>
-            <h3>code architecture</h3>
-            <h3>communication</h3>
-            <h3>leadership</h3>
-        </div> -->
     </div>
 </div>
