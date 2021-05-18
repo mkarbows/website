@@ -43,6 +43,16 @@
   flex-wrap: wrap;
 }
 
+h3 {
+  margin-bottom: 0px;
+  margin-top: 25px;
+}
+
+h4 {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
 /* .company {
   padding-right: 20px;
 } */
