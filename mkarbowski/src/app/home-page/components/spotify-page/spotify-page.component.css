@@ -1,0 +1,14 @@
+.header {
+    text-align: center;
+    padding: 40px;
+    font-size: 38px;
+    letter-spacing: 10px;
+  }
+
+  .spotify-playlists{
+      text-align: center;
+  }
+
+  iframe {
+      margin-top: 30px;
+  }

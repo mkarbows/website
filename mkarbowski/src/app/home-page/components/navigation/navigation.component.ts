@@ -24,6 +24,16 @@ export class NavigationComponent implements OnInit {
         link: './resume',
         index: 1
       },
+      {
+        label: 'photography',
+        link: './photography',
+        index: 2
+      },
+      {
+        label: 'music',
+        link: './music',
+        index: 2
+      },
     ];
 
   }
