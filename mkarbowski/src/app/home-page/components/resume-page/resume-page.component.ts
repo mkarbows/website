@@ -33,19 +33,28 @@ export class ResumePageComponent implements OnInit {
       category: 'experience',
       data: [
         {
+          company: 'a.team',
+          location: 'remote',
+          title: 'contract frontend & webflow developer',
+          dates: 'dec 2021 - present',
+          bullets: [
+            'frontend developer & webflow developer, landing page creation and webflow integration with api'
+          ]
+        },
+        {
           company: 'life school labs',
           location: 'remote',
-          title: 'contract frontend developer',
-          dates: 'july 2021 - present',
+          title: 'contract frontend & webflow developer',
+          dates: 'july 2021 - dec 2021',
           bullets: [
-            'lead frontend developer, consultant, and webflow developer'
+            'lead frontend developer, consultant, and webflow developer. landing page creation and asset organization, google ads testing and analytics.'
           ]
         },
         {
           company: 'metapixel llc',
           location: 'remote',
           title: 'contract software developer',
-          dates: 'feb 2021 - present',
+          dates: 'feb 2021 - jul 2021',
           bullets: [
             'front end developer contributing to various web and mobile applications with the primary stack being angular, ionic, nestjs, and js/html/css'
           ]
