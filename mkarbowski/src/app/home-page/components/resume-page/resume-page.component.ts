@@ -12,20 +12,17 @@ export class ResumePageComponent implements OnInit {
       category: 'stack',
       data: [],
       list: [
-        'angular',
-        'ngrx',
-        'ionic',
+        'webflow',
         'javascript',
         'html',
         'css',
-        'webflow',
+        'angular',
+        'ngrx',
+        'ionic',
         'react',
-        'react native',
         'redux',
-        'nestjs',
         'node.js',
         'git',
-        'c#',
         'python',
       ]
     },
@@ -38,7 +35,7 @@ export class ResumePageComponent implements OnInit {
           title: 'contract frontend & webflow developer',
           dates: 'dec 2021 - present',
           bullets: [
-            'frontend developer & webflow developer, landing page creation and webflow integration with api'
+            'frontend developer & webflow developer, landing page creation and webflow integration with a.team api'
           ]
         },
         {
