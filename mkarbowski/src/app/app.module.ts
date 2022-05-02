@@ -10,14 +10,12 @@ import { MaterialModule } from './material';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './core/components/footer/footer.component';
 import { NavigationComponent } from './home-page/components/navigation/navigation.component';
-import { HeaderComponent } from './core/components/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
     NavigationComponent,
-    HeaderComponent,
   ],
   imports: [
     BrowserModule,

@@ -8,13 +8,13 @@
             </div>
             <div class="exp-container" *ngFor="let job of item.data">
                 <div class="experience">
-                    <h3 class="title">{{ job.title }}</h3>
-                    <h3 class="dates">{{ job.dates }}</h3>
+                    <h3 class="title">{{ job.company }}</h3>
+                    <h3 class="dates">{{ job.location }}</h3>
                 </div>
                 <div class="experience">
                     <!-- <h3 class="company">{{ job.company }},  {{ job.location }}</h3> -->
-                    <h4 class="company">{{ job.company }}</h4> 
-                    <h4 class="location">{{ job.location }}</h4>
+                    <h4 class="company">{{ job.title }}</h4> 
+                    <h4 class="location">{{ job.dates }}</h4>
                     <!-- <p>{{ job. </p> -->
                 </div>
             </div>

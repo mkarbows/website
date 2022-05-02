@@ -1,15 +1,9 @@
-.header {
-    text-align: center;
-    padding: 40px;
-    font-size: 38px;
-    letter-spacing: 10px;
-  }
-
 .resume {
   padding-top: 30px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.051);
   text-shadow: 1px 1px 25px rgba(0, 0, 0, 0.3);
+  padding-bottom: 72px;
 }
 
 .category {

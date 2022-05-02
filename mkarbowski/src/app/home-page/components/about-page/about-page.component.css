@@ -4,13 +4,6 @@
   background-color: rgba(0, 0, 0, 0.051);
 }
 
-.header {
-  text-align: center;
-  padding: 40px;
-  font-size: 38px;
-  letter-spacing: 10px;
-}
-
 .about {
   display: flex;
   justify-content: space-evenly;
