@@ -16,6 +16,7 @@ export class ResumePageComponent implements OnInit {
         'javascript',
         'html',
         'css',
+        'figma',
         'angular',
         'ngrx',
         'ionic',
@@ -101,6 +102,7 @@ export class ResumePageComponent implements OnInit {
         'story boarding',
         'communication',
         'leadership',
+        'ux / ui design'
       ]
     }
   ]

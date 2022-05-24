@@ -20,8 +20,8 @@ export class NavigationComponent implements OnInit {
         index: 0
       },
       {
-        label: 'resume',
-        link: './resume',
+        label: 'experience',
+        link: './experience',
         index: 1
       },
       {

@@ -8,7 +8,7 @@ import { SpotifyPageComponent } from './components/spotify-page/spotify-page.com
 const routes: Routes = [
   { path: '', redirectTo: '/about', pathMatch: 'full' },
   { path: 'about', component:  AboutPageComponent},
-  { path: 'resume', component:  ResumePageComponent},
+  { path: 'experience', component:  ResumePageComponent},
   { path: 'photography', component:  PhotographyPageComponent},
   { path: 'music', component:  SpotifyPageComponent},
 ];
