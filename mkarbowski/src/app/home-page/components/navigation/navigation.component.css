@@ -2,10 +2,27 @@ button {
   margin: 10px;
   font-size: 18px;
 }
+
+.header,
+.nav {
+  position: sticky;
+  z-index:10;
+}
+
 .header {
   text-align: center;
   padding: 40px;
   padding-bottom: 20px;
   font-size: 38px;
   letter-spacing: 10px;
+  top: 40px;
+  background: #9ea7b2;
+  margin: 0;
+}
+
+.nav {
+  overflow: hidden;
+  top: 144px;
+  /* background: #a7a6ab; */
+  background: #9ea7b2;
 }
