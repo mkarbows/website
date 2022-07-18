@@ -11,11 +11,11 @@ button {
 
 .header {
   text-align: center;
-  padding: 40px;
+  padding: 80px;
   padding-bottom: 20px;
   font-size: 38px;
   letter-spacing: 10px;
-  top: 40px;
+  top: 0px;
   background: #9ea7b2;
   margin: 0;
 }
